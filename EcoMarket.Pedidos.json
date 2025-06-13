@@ -1,0 +1,152 @@
+[{
+  "_id": {
+    "$oid": "684b0adb2b64738ef3db3fe3"
+  },
+  "usuarioId": "60af1c25f1e2d34b1a1b0001",
+  "productos": [
+    {
+      "productoId": "80df3a42acbe6a3f2a2a0001",
+      "cantidad": 1
+    },
+    {
+      "productoId": "80df3a42acbe6a3f2a2a0005",
+      "cantidad": 2
+    }
+  ],
+  "estado": "entregado",
+  "fechaPedido": "2024-12-03"
+},
+{
+  "_id": {
+    "$oid": "684b0adb2b64738ef3db3fe4"
+  },
+  "usuarioId": "60af1c25f1e2d34b1a1b0002",
+  "productos": [
+    {
+      "productoId": "80df3a42acbe6a3f2a2a0002",
+      "cantidad": 3
+    }
+  ],
+  "estado": "en preparación",
+  "fechaPedido": "2025-03-21"
+},
+{
+  "_id": {
+    "$oid": "684b0adb2b64738ef3db3fe5"
+  },
+  "usuarioId": "60af1c25f1e2d34b1a1b0003",
+  "productos": [
+    {
+      "productoId": "80df3a42acbe6a3f2a2a0003",
+      "cantidad": 1
+    }
+  ],
+  "estado": "en camino",
+  "fechaPedido": "2025-01-15"
+},
+{
+  "_id": {
+    "$oid": "684b0adb2b64738ef3db3fe6"
+  },
+  "usuarioId": "60af1c25f1e2d34b1a1b0004",
+  "productos": [
+    {
+      "productoId": "80df3a42acbe6a3f2a2a0004",
+      "cantidad": 1
+    },
+    {
+      "productoId": "80df3a42acbe6a3f2a2a0006",
+      "cantidad": 1
+    }
+  ],
+  "estado": "entregado",
+  "fechaPedido": "2023-09-10"
+},
+{
+  "_id": {
+    "$oid": "684b0adb2b64738ef3db3fe7"
+  },
+  "usuarioId": "60af1c25f1e2d34b1a1b0005",
+  "productos": [
+    {
+      "productoId": "80df3a42acbe6a3f2a2a0002",
+      "cantidad": 2
+    }
+  ],
+  "estado": "cancelado",
+  "fechaPedido": "2024-02-28"
+},
+{
+  "_id": {
+    "$oid": "684b0adb2b64738ef3db3fe8"
+  },
+  "usuarioId": "60af1c25f1e2d34b1a1b0006",
+  "productos": [
+    {
+      "productoId": "80df3a42acbe6a3f2a2a0007",
+      "cantidad": 1
+    }
+  ],
+  "estado": "en preparación",
+  "fechaPedido": "2025-06-01"
+},
+{
+  "_id": {
+    "$oid": "684b0adb2b64738ef3db3fe9"
+  },
+  "usuarioId": "60af1c25f1e2d34b1a1b0007",
+  "productos": [
+    {
+      "productoId": "80df3a42acbe6a3f2a2a0003",
+      "cantidad": 2
+    },
+    {
+      "productoId": "80df3a42acbe6a3f2a2a0008",
+      "cantidad": 1
+    }
+  ],
+  "estado": "entregado",
+  "fechaPedido": "2024-07-19"
+},
+{
+  "_id": {
+    "$oid": "684b0adb2b64738ef3db3fea"
+  },
+  "usuarioId": "60af1c25f1e2d34b1a1b0008",
+  "productos": [
+    {
+      "productoId": "80df3a42acbe6a3f2a2a0001",
+      "cantidad": 1
+    }
+  ],
+  "estado": "en camino",
+  "fechaPedido": "2025-05-10"
+},
+{
+  "_id": {
+    "$oid": "684b0adb2b64738ef3db3feb"
+  },
+  "usuarioId": "60af1c25f1e2d34b1a1b0009",
+  "productos": [
+    {
+      "productoId": "80df3a42acbe6a3f2a2a0005",
+      "cantidad": 2
+    }
+  ],
+  "estado": "entregado",
+  "fechaPedido": "2023-11-22"
+},
+{
+  "_id": {
+    "$oid": "684b0adb2b64738ef3db3fec"
+  },
+  "usuarioId": "60af1c25f1e2d34b1a1b0010",
+  "productos": [
+    {
+      "productoId": "80df3a42acbe6a3f2a2a0009",
+      "cantidad": 1
+    }
+  ],
+  "estado": "cancelado",
+  "fechaPedido": "2024-06-17"
+}]

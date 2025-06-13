@@ -1,0 +1,130 @@
+[{
+  "_id": "80df3a42acbe6a3f2a2a0001",
+  "nombre": "Cepillo de dientes de bambú",
+  "categoria": "Higiene",
+  "descripcion": "Cepillo biodegradable con mango de bambú y cerdas suaves.",
+  "precio": 3.5,
+  "stock": 120,
+  "etiquetas": [
+    "biodegradable",
+    "eco",
+    "bambú"
+  ]
+},
+{
+  "_id": "80df3a42acbe6a3f2a2a0002",
+  "nombre": "Bolsa reutilizable de algodón",
+  "categoria": "Accesorios",
+  "descripcion": "Bolsa de tela 100% algodón para compras sostenibles.",
+  "precio": 5,
+  "stock": 80,
+  "etiquetas": [
+    "reutilizable",
+    "algodón",
+    "sostenible"
+  ]
+},
+{
+  "_id": "80df3a42acbe6a3f2a2a0003",
+  "nombre": "Champú sólido natural",
+  "categoria": "Higiene",
+  "descripcion": "Champú sin sulfatos ni parabenos, ideal para cabello normal.",
+  "precio": 6.8,
+  "stock": 60,
+  "etiquetas": [
+    "natural",
+    "vegano",
+    "sólido"
+  ]
+},
+{
+  "_id": "80df3a42acbe6a3f2a2a0004",
+  "nombre": "Detergente ecológico en polvo",
+  "categoria": "Limpieza",
+  "descripcion": "Detergente sin fragancia artificial ni fosfatos.",
+  "precio": 8.5,
+  "stock": 40,
+  "etiquetas": [
+    "ecológico",
+    "sin fragancia",
+    "hogar"
+  ]
+},
+{
+  "_id": "80df3a42acbe6a3f2a2a0005",
+  "nombre": "Pajitas de acero inoxidable",
+  "categoria": "Accesorios",
+  "descripcion": "Set de 4 pajitas reutilizables con cepillo de limpieza.",
+  "precio": 4.2,
+  "stock": 100,
+  "etiquetas": [
+    "reutilizable",
+    "acero",
+    "zero waste"
+  ]
+},
+{
+  "_id": "80df3a42acbe6a3f2a2a0006",
+  "nombre": "Esponja vegetal natural (luffa)",
+  "categoria": "Higiene",
+  "descripcion": "Esponja exfoliante 100% natural y compostable.",
+  "precio": 2.9,
+  "stock": 75,
+  "etiquetas": [
+    "natural",
+    "compostable",
+    "exfoliante"
+  ]
+},
+{
+  "_id": "80df3a42acbe6a3f2a2a0007",
+  "nombre": "Cera vegana para envolver alimentos",
+  "categoria": "Cocina",
+  "descripcion": "Alternativa al film plástico hecha con cera vegetal.",
+  "precio": 7.3,
+  "stock": 50,
+  "etiquetas": [
+    "vegano",
+    "reutilizable",
+    "sin plástico"
+  ]
+},
+{
+  "_id": "80df3a42acbe6a3f2a2a0008",
+  "nombre": "Jabón artesanal de lavanda",
+  "categoria": "Higiene",
+  "descripcion": "Jabón calmante hecho a mano con aceite esencial de lavanda.",
+  "precio": 4.7,
+  "stock": 65,
+  "etiquetas": [
+    "artesanal",
+    "lavanda",
+    "natural"
+  ]
+},
+{
+  "_id": "80df3a42acbe6a3f2a2a0009",
+  "nombre": "Filtro de agua de carbón activado",
+  "categoria": "Cocina",
+  "descripcion": "Purificador natural para botellas y jarras.",
+  "precio": 9.5,
+  "stock": 30,
+  "etiquetas": [
+    "purificador",
+    "carbón",
+    "filtrado"
+  ]
+},
+{
+  "_id": "80df3a42acbe6a3f2a2a0010",
+  "nombre": "Compostador de cocina compacto",
+  "categoria": "Hogar",
+  "descripcion": "Ideal para residuos orgánicos en espacios pequeños.",
+  "precio": 25,
+  "stock": 20,
+  "etiquetas": [
+    "compost",
+    "hogar",
+    "residuos"
+  ]
+}]

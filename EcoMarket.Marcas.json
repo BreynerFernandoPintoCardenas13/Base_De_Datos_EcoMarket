@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "684b0b4b2b64738ef3db3fed"
+  },
+  "nombre": "BambuVida",
+  "pais": "España",
+  "sitioWeb": "https://www.bambuvida.es",
+  "descripcion": "Fabricantes de productos de bambú biodegradables para el hogar.",
+  "valoracionMedia": 4.6
+},
+{
+  "_id": {
+    "$oid": "684b0b4b2b64738ef3db3fee"
+  },
+  "nombre": "GreenPack",
+  "pais": "Alemania",
+  "sitioWeb": "https://www.greenpack.de",
+  "descripcion": "Soluciones de empaques reutilizables y sostenibles.",
+  "valoracionMedia": 4.4
+},
+{
+  "_id": {
+    "$oid": "684b0b4b2b64738ef3db3fef"
+  },
+  "nombre": "EcoNatur",
+  "pais": "España",
+  "sitioWeb": "https://www.econatur.org",
+  "descripcion": "Empresa familiar que produce cosmética ecológica y vegana.",
+  "valoracionMedia": 4.8
+},
+{
+  "_id": {
+    "$oid": "684b0b4b2b64738ef3db3ff0"
+  },
+  "nombre": "Terra Verde",
+  "pais": "Portugal",
+  "sitioWeb": "https://www.terraverde.pt",
+  "descripcion": "Productos de limpieza ecológicos certificados.",
+  "valoracionMedia": 4.5
+},
+{
+  "_id": {
+    "$oid": "684b0b4b2b64738ef3db3ff1"
+  },
+  "nombre": "EarthKind",
+  "pais": "Reino Unido",
+  "sitioWeb": "https://www.earthkind.co.uk",
+  "descripcion": "Marcas de higiene sin plásticos para uso diario.",
+  "valoracionMedia": 4.2
+},
+{
+  "_id": {
+    "$oid": "684b0b4b2b64738ef3db3ff2"
+  },
+  "nombre": "BioPack Solutions",
+  "pais": "Francia",
+  "sitioWeb": "https://www.biopack.fr",
+  "descripcion": "Distribuidores de bolsas compostables y embalaje ecológico.",
+  "valoracionMedia": 4.3
+},
+{
+  "_id": {
+    "$oid": "684b0b4b2b64738ef3db3ff3"
+  },
+  "nombre": "VerdeMente",
+  "pais": "México",
+  "sitioWeb": "https://www.verde-mente.mx",
+  "descripcion": "Marcas artesanales de higiene y cosmética natural.",
+  "valoracionMedia": 4.7
+},
+{
+  "_id": {
+    "$oid": "684b0b4b2b64738ef3db3ff4"
+  },
+  "nombre": "NoPlastic Co.",
+  "pais": "EE.UU.",
+  "sitioWeb": "https://www.noplasticco.com",
+  "descripcion": "Alternativas sostenibles a productos plásticos desechables.",
+  "valoracionMedia": 4.1
+},
+{
+  "_id": {
+    "$oid": "684b0b4b2b64738ef3db3ff5"
+  },
+  "nombre": "LuffaLab",
+  "pais": "Colombia",
+  "sitioWeb": "https://www.luffalab.co",
+  "descripcion": "Productos de luffa vegetal para higiene y limpieza.",
+  "valoracionMedia": 4.6
+},
+{
+  "_id": {
+    "$oid": "684b0b4b2b64738ef3db3ff6"
+  },
+  "nombre": "EcoWraps",
+  "pais": "Australia",
+  "sitioWeb": "https://www.ecowraps.com.au",
+  "descripcion": "Envolturas ecológicas de cera vegana y algodón orgánico.",
+  "valoracionMedia": 4.5
+}]

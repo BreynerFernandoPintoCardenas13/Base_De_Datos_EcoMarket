@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "684b0bb12b64738ef3db3ff7"
+  },
+  "usuarioId": "60af1c25f1e2d34b1a1b0001",
+  "productoId": "80df3a42acbe6a3f2a2a0001",
+  "calificacion": 5,
+  "comentario": "Muy buen cepillo, se siente natural y no daña las encías.",
+  "fecha": "2025-04-10"
+},
+{
+  "_id": {
+    "$oid": "684b0bb12b64738ef3db3ff8"
+  },
+  "usuarioId": "60af1c25f1e2d34b1a1b0002",
+  "productoId": "80df3a42acbe6a3f2a2a0002",
+  "calificacion": 4,
+  "comentario": "La bolsa es resistente y se pliega bien, aunque un poco pequeña.",
+  "fecha": "2025-03-22"
+},
+{
+  "_id": {
+    "$oid": "684b0bb12b64738ef3db3ff9"
+  },
+  "usuarioId": "60af1c25f1e2d34b1a1b0003",
+  "productoId": "80df3a42acbe6a3f2a2a0003",
+  "calificacion": 3,
+  "comentario": "El champú está bien, pero no hace mucha espuma.",
+  "fecha": "2025-01-17"
+},
+{
+  "_id": {
+    "$oid": "684b0bb12b64738ef3db3ffa"
+  },
+  "usuarioId": "60af1c25f1e2d34b1a1b0004",
+  "productoId": "80df3a42acbe6a3f2a2a0004",
+  "calificacion": 5,
+  "comentario": "Excelente detergente, deja la ropa limpia sin olor artificial.",
+  "fecha": "2024-12-02"
+},
+{
+  "_id": {
+    "$oid": "684b0bb12b64738ef3db3ffb"
+  },
+  "usuarioId": "60af1c25f1e2d34b1a1b0005",
+  "productoId": "80df3a42acbe6a3f2a2a0005",
+  "calificacion": 2,
+  "comentario": "Las pajitas son buenas pero se manchan con facilidad.",
+  "fecha": "2024-11-28"
+},
+{
+  "_id": {
+    "$oid": "684b0bb12b64738ef3db3ffc"
+  },
+  "usuarioId": "60af1c25f1e2d34b1a1b0006",
+  "productoId": "80df3a42acbe6a3f2a2a0006",
+  "calificacion": 4,
+  "comentario": "La esponja exfolia bien, aunque se desgasta algo rápido.",
+  "fecha": "2025-06-01"
+},
+{
+  "_id": {
+    "$oid": "684b0bb12b64738ef3db3ffd"
+  },
+  "usuarioId": "60af1c25f1e2d34b1a1b0007",
+  "productoId": "80df3a42acbe6a3f2a2a0007",
+  "calificacion": 5,
+  "comentario": "Muy útil y fácil de limpiar. La mejor alternativa al film plástico.",
+  "fecha": "2024-08-10"
+},
+{
+  "_id": {
+    "$oid": "684b0bb12b64738ef3db3ffe"
+  },
+  "usuarioId": "60af1c25f1e2d34b1a1b0008",
+  "productoId": "80df3a42acbe6a3f2a2a0008",
+  "calificacion": 5,
+  "comentario": "Aroma relajante y deja la piel suave. 100% recomendable.",
+  "fecha": "2025-05-12"
+},
+{
+  "_id": {
+    "$oid": "684b0bb12b64738ef3db3fff"
+  },
+  "usuarioId": "60af1c25f1e2d34b1a1b0009",
+  "productoId": "80df3a42acbe6a3f2a2a0009",
+  "calificacion": 4,
+  "comentario": "Filtra bien, pero necesita reemplazo cada mes.",
+  "fecha": "2024-06-17"
+},
+{
+  "_id": {
+    "$oid": "684b0bb12b64738ef3db4000"
+  },
+  "usuarioId": "60af1c25f1e2d34b1a1b0010",
+  "productoId": "80df3a42acbe6a3f2a2a0010",
+  "calificacion": 5,
+  "comentario": "El compostador es compacto y no genera olores. Ideal para apartamentos.",
+  "fecha": "2025-02-19"
+}]
