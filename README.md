@@ -1,5 +1,10 @@
 # Proyecto EcoMarket - Tienda Online de Productos Ecológicos
 
+## Integrantes
+
+- Juan Jose Prada Contreras
+- Breyner Fernando Pinto
+
 ## Descripción del Sistema
 
 EcoMarket es una aplicación web para comprar productos ecológicos, locales y sostenibles. Los usuarios pueden registrarse, buscar productos, dejar reseñas, seguir marcas y recibir recomendaciones.
@@ -61,6 +66,23 @@ Usar el siguiente comando:
 
 3. Importar los .JSON en cada colección
 
+- Dentro de las colecciones tendremos dos maneras de importar los archivos .JSON ya sea la colección estando vacia o teniendo documentos cargados.
 
+**Colección Vacia**
 
+- Directamente en el dashboard podras observar una advertencia que dice "This Collection has no Data" y debajo el boton Import data.
+
+![Paso 5.1](/Imagenes/Paso_5.1.png)
+
+**Colección con datos**
+
+- Si la colección posee datos lo que haremos es utilizar la opción ADD DATA -- Import JSON or CSV file.
+
+![Paso 5.2](/Imagenes/Paso_5.2.png)
+
+- Una vez usada dichas opciones en cualquiera de los  se desplegara una ventana y lo que haremos es seleccionar el archivo .JSON que usaremos.
+
+![Paso 6](/Imagenes/Paso_6.png)
+
+**Hecho todo esto ya tendremos nuestra base de datos con sus respectivas colecciones y datos cargados.**
 
