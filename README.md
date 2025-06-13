@@ -86,3 +86,66 @@ Usar el siguiente comando:
 
 **Hecho todo esto ya tendremos nuestra base de datos con sus respectivas colecciones y datos cargados.**
 
+## Actividad a relizar
+
+### Consultas mediante expresiones regulares a realizar
+
+#### Colección Usuarios
+
+1. Buscar usuarios cuyo correo sea de una empresa específica (por ejemplo: @empresa.com) para segmentación B2B.
+
+2. Filtrar usuarios con nombres que incluyan un guion o doble apellido (como “Juan-Pablo” o “Martínez López”) para corrección de formularios.
+
+3. Detectar direcciones que incluyan la palabra “rural” o “campo” para envíos con condiciones especiales.
+
+4. Identificar usuarios cuyo teléfono tiene un formato erróneo (por ejemplo, letras mezcladas o sin prefijo).
+
+5. Buscar usuarios con nombre que contenga abreviaturas (ej: "Sr.", "Dr.") para personalización de comunicaciones.
+
+#### Colección Productos
+
+6. Filtrar productos cuya descripción indique que están libres de BPA para destacar seguridad alimentaria.
+
+7. Buscar productos con nombre que indique tamaño o formato (como “Pack”, “XL”, “Mini”) para agrupar variantes.
+
+8. Detectar productos cuyo nombre comienza con número (ej: “3 en 1”, “100% natural”) para ordenarlos correctamente en catálogo.
+
+9. Encontrar productos cuya descripción mencione “hecho a mano” o “artesanal” para etiquetarlos como premium.
+
+10. Identificar productos que mencionen una oferta o promoción (“2x1”, “descuento”, “rebaja”) en su descripción.
+
+#### Colección Pedidos
+
+11. Buscar pedidos realizados en días festivos (identificables por fechas como 25/12, 01/01) para análisis de demanda especial.
+
+12. Detectar pedidos que incluyan productos con identificadores de un lote retirado (ej: código que empieza con "RET").
+
+13. Filtrar pedidos con método de pago "contra entrega" para identificar posibles riesgos o fraudes.
+
+14. Localizar pedidos de usuarios cuya ID indica que pertenecen a una suscripción mensual (ej: terminan en “S01”).
+
+15. Buscar pedidos con estado que indique errores en envío (“fallido”, “devuelto”, etc.) para auditoría logística.
+
+#### Colección Marcas
+
+16. Buscar marcas que tengan en su nombre la palabra “Eco”, “Bio” o “Verde” para crear una categoría ecológica destacada.
+
+17. Identificar marcas cuyo sitio web no usa HTTPS (problema de seguridad).
+
+18. Filtrar marcas de países específicos según inicial del país (ej: que empiecen con “A” para agrupar por región).
+
+19. Detectar marcas cuyo nombre sea una sigla (por ejemplo, solo mayúsculas) para darles estilo visual distinto.
+
+20. Buscar marcas que en su descripción mencionen colaboraciones con ONGs o certificaciones (ej: “Fair Trade”, “B Corp”).
+
+#### Colección Reseñas
+
+21. Buscar reseñas que usen emojis para analizarlas por tono emocional en visualizaciones.
+
+22. Identificar reseñas que mencionen explícitamente el nombre del producto (uso directo, ayuda a SEO).
+
+23. Filtrar reseñas donde se utilicen frases como “no volvería a comprar” o “muy decepcionado” para detección de críticas severas.
+
+24. Detectar reseñas con comentarios que contienen preguntas (signo “?”) para responderlas desde atención al cliente.
+
+25. Buscar reseñas que incluyan palabras como “alergia”, “reacción” o “irritación” para productos con potencial riesgo.
