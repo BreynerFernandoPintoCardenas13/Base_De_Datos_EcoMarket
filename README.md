@@ -94,58 +94,115 @@ Usar el siguiente comando:
 
 1. Buscar usuarios cuyo correo sea de una empresa específica (por ejemplo: @empresa.com) para segmentación B2B.
 
+## db.Usuarios.find({ correo: /@empresa\.com$/i }) 
+
 2. Filtrar usuarios con nombres que incluyan un guion o doble apellido (como “Juan-Pablo” o “Martínez López”) para corrección de formularios.
+
+## db.Usuarios.find({ nombre: /[- ]\w+/ }) 
 
 3. Detectar direcciones que incluyan la palabra “rural” o “campo” para envíos con condiciones especiales.
 
+## db.Usuarios.find({ direccion: /rural|campo/i })
+
 4. Identificar usuarios cuyo teléfono tiene un formato erróneo (por ejemplo, letras mezcladas o sin prefijo).
 
+## db.Usuarios.find({ telefono: { $not: /^[0-9]{9}$/ } })
+
 5. Buscar usuarios con nombre que contenga abreviaturas (ej: "Sr.", "Dr.") para personalización de comunicaciones.
+
+## db.Usuarios.find({ nombre: /\b(Sr|Sra|Dr|Dra)\.\b/i })
 
 #### Colección Productos
 
 6. Filtrar productos cuya descripción indique que están libres de BPA para destacar seguridad alimentaria.
 
+## db.Productos.find({ descripcion: /libre de BPA/i })
+
 7. Buscar productos con nombre que indique tamaño o formato (como “Pack”, “XL”, “Mini”) para agrupar variantes.
+
+## db.Productos.find({ nombre: /\b(Pack|XL|Mini|Grande|Pequeño)\b/i })
 
 8. Detectar productos cuyo nombre comienza con número (ej: “3 en 1”, “100% natural”) para ordenarlos correctamente en catálogo.
 
+## db.Productos.find({ nombre: /^[0-9]/ })
+
 9. Encontrar productos cuya descripción mencione “hecho a mano” o “artesanal” para etiquetarlos como premium.
 
+## db.Productos.find({ descripcion: /hecho a mano|artesanal/i })
+
 10. Identificar productos que mencionen una oferta o promoción (“2x1”, “descuento”, “rebaja”) en su descripción.
+
+## db.Productos.find({ descripcion: /2x1|descuento|rebaja/i })
+
 
 #### Colección Pedidos
 
 11. Buscar pedidos realizados en días festivos (identificables por fechas como 25/12, 01/01) para análisis de demanda especial.
 
+db.Pedidos.find({
+  fechaPedido: { $regex: /-12-25$|-01-01$/ }
+})
+
 12. Detectar pedidos que incluyan productos con identificadores de un lote retirado (ej: código que empieza con "RET").
+
+db.Pedidos.find({
+  "productos": { $elemMatch: { $regex: /^RET/i } }
+})
+
 
 13. Filtrar pedidos con método de pago "contra entrega" para identificar posibles riesgos o fraudes.
 
+
+
 14. Localizar pedidos de usuarios cuya ID indica que pertenecen a una suscripción mensual (ej: terminan en “S01”).
 
+## db.Pedidos.find({ usuarioId: /S01$/ })
+
 15. Buscar pedidos con estado que indique errores en envío (“fallido”, “devuelto”, etc.) para auditoría logística.
+
+## db.Pedidos.find({ estado: /fallido|devuelto/i })
 
 #### Colección Marcas
 
 16. Buscar marcas que tengan en su nombre la palabra “Eco”, “Bio” o “Verde” para crear una categoría ecológica destacada.
 
+## db.Marcas.find({ nombre: /Eco|Bio|Verde/i })
+
 17. Identificar marcas cuyo sitio web no usa HTTPS (problema de seguridad).
+
+## db.Marcas.find({ sitioWeb: { $not: /^https:\/\//i } })
 
 18. Filtrar marcas de países específicos según inicial del país (ej: que empiecen con “A” para agrupar por región).
 
+## db.Marcas.find({ pais: /^A/i })
+
 19. Detectar marcas cuyo nombre sea una sigla (por ejemplo, solo mayúsculas) para darles estilo visual distinto.
 
+## db.Marcas.find({ nombre: /^[A-Z]{2,}$/ })
+
 20. Buscar marcas que en su descripción mencionen colaboraciones con ONGs o certificaciones (ej: “Fair Trade”, “B Corp”).
+
+## db.Marcas.find({ descripcion: /Fair Trade|B Corp/i })
 
 #### Colección Reseñas
 
 21. Buscar reseñas que usen emojis para analizarlas por tono emocional en visualizaciones.
 
+## db.Reseñas.find({ comentario: /[\u{1F600}-\u{1F6FF}]/u }) // Emojis comunes
+
 22. Identificar reseñas que mencionen explícitamente el nombre del producto (uso directo, ayuda a SEO).
+
+## 
 
 23. Filtrar reseñas donde se utilicen frases como “no volvería a comprar” o “muy decepcionado” para detección de críticas severas.
 
+## db.Reseñas.find({ comentario: /no volvería a comprar|muy decepcionado/i })
+
 24. Detectar reseñas con comentarios que contienen preguntas (signo “?”) para responderlas desde atención al cliente.
 
+## db.Reseñas.find({ comentario: /\?/ })
+
 25. Buscar reseñas que incluyan palabras como “alergia”, “reacción” o “irritación” para productos con potencial riesgo.
+
+## db.Reseñas.find({ comentario: /alergia|reacción|irritación/i })
+
