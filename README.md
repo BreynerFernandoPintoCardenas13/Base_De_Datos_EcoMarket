@@ -3,7 +3,7 @@
 ## Integrantes
 
 - Juan Jose Prada Contreras
-- Breyner Fernando Pinto
+- Breyner Fernando Pinto C.
 
 ## Descripción del Sistema
 
